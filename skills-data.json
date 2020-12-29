@@ -1,0 +1,24 @@
+[
+    {
+        "skill": "Backend Web",
+        "related": [
+            "Python"
+        ]
+    },
+    {
+        "skill": "Python",
+        "related": [
+            "Flask",
+            "SQLite"
+        ]
+    },
+    {
+        "skill": "Game Development",
+        "related": [
+            "C++",
+            "Unity3D",
+            "VR",
+            "OpenGL"
+        ]
+    }
+]

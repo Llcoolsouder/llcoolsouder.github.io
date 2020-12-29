@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lonnie Souder II</title>
+        <meta name="author" content="Lonnie Souder II">
+        <meta name="description" content="Lonnie's Portfolio">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body class="w-75 mx-auto">
+        <header></header>
+        <section id="about" class="container text-center py-5">
+            <div class="row">
+                <h1 class="col">Lonnie L. Souder II</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Vitae congue eu consequat ac. Donec massa sapien faucibus et molestie ac feugiat.
+                    Lectus nulla at volutpat diam ut venenatis tellus in metus.
+                    Vitae ultricies leo integer malesuada.
+                    Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc.
+                    Mauris ultrices eros in cursus turpis massa.
+                </div>
+            </div>
+        </section>
+        <section class="accordion" id="skills">
+            <div class="accordion-item">
+                <h2 id="skills-header" class="accordion-header">
+                    <button class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#skills-collapse"
+                            aria-expanded="true"
+                            aria-controls="skills-collapse">
+                        Skills
+                    </button>
+                </h2>
+                <div id="skills-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="skills-header"
+                     data-bs-parent="#skills">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col">C#</div>
+                            <div class="col">F#</div>
+                            <div class="col">C++</div>
+                            <div class="col">Python</div>
+                        </div>
+                        <div class="row">
+                            <div class="col">CUDA</div>
+                            <div class="col">OpenGL</div>
+                            <div class="col">Unity3D</div>
+                            <div class="col">FMOD</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="accordion" id="work">
+            <div class="accordion-item">
+                <h2 id="work-header" class="accordion-header">
+                    <button class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#work-collapse"
+                            aria-expanded="false"
+                            aria-controls="work-collapse">
+                        Work
+                    </button>
+                </h2>
+                <div id="work-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="work-header"
+                     data-bs-parent="#work">
+                    <div class="accordion-body">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cy"></section>
+        
+
+        <footer></footer>
+        <!--
+            Includes ALL Bootstrap plugins.
+            TODO: Include only the plugins used
+        -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.17.1/cytoscape.min.js"></script>
+        <script src="skills.js"></script>
+    </body>
+</html>
