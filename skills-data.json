@@ -1,8 +1,41 @@
 [
     {
-        "skill": "Backend Web",
+        "skill": "Languages",
         "related": [
-            "Python"
+            "C++",
+            "C",
+            "C#",
+            "F#",
+            "Python",
+            "Javascript",
+            "MATLAB"
+        ]
+    },
+    {
+        "skill": "Web Development",
+        "related": [
+            "Frontend",
+            "Backend"
+        ]
+    },
+    {
+        "skill": "Frontend",
+        "related": [
+            "Javascript",
+            "HTML",
+            "CSS",
+            "ReactJS",
+            "Bootstrap"
+        ]
+    },
+    {
+        "skill": "Backend",
+        "related": [
+            "Python",
+            "NGINX",
+            "Docker",
+            "Docker-Compose",
+            "Javascript"
         ]
     },
     {
@@ -19,6 +52,23 @@
             "Unity3D",
             "VR",
             "OpenGL"
+        ]
+    },
+    {
+        "skill": "VR",
+        "related": [
+            "Oculus Rift S",
+            "Oculus Go",
+            "HTC Vive",
+            "World-Space GUI"
+        ]
+    },
+    {
+        "skill": "Optimization",
+        "related": [
+            "nvprof",
+            "Visual Studio Performance Profiler",
+            "CUDA"
         ]
     }
 ]
