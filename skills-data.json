@@ -1,6 +1,6 @@
 [
     {
-        "skill": "Languages",
+        "skill": "Programming Languages",
         "related": [
             "C++",
             "C",
@@ -8,7 +8,8 @@
             "F#",
             "Python",
             "Javascript",
-            "MATLAB"
+            "MATLAB",
+            "Verilog"
         ]
     },
     {
@@ -55,6 +56,13 @@
         ]
     },
     {
+        "skill": "Unity3D",
+        "related": [
+            "C#",
+            "VR"
+        ]
+    },
+    {
         "skill": "VR",
         "related": [
             "Oculus Rift S",
@@ -69,6 +77,35 @@
             "nvprof",
             "Visual Studio Performance Profiler",
             "CUDA"
+        ]
+    },
+    {
+        "skill": "Electronics",
+        "related": [
+            "Audio Electronics",
+            "Circuit Layout",
+            "KiCAD",
+            "Filtering",
+            "VLSI",
+            "Control Systems",
+            "Embedded Systems",
+            "Digital Circuits"
+        ]
+    },
+    {
+        "skill": "Embedded Systems",
+        "related": [
+            "C",
+            "MSP430",
+            "Serial Communication"
+        ]
+    },
+    {
+        "skill": "Digital Circuits",
+        "related": [
+            "Computer Architecture",
+            "Verliog",
+            "VLSI"
         ]
     }
 ]
