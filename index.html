@@ -11,107 +11,114 @@
     </head>
     <body class="w-75 mx-auto">
         <header></header>
-        <section id="about" class="container text-center py-5">
+        <main class="container">
+            <section id="about" class="text-center py-5">
+                <div class="row">
+                    <h1 class="col">Lonnie L. Souder II</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Electrical & Computer Engineer with a flare for graphics, 
+                        low-level code, and making things fast.
+                    </div>
+                </div>
+            </section>
+            <section class="container" id="skills">
+                <h2>Skills</h2>
+                <div id="cy" class="container"></div>
+            </section>
+            <section class="accordion container" id="work">
+                <h2>Work</h2>
+                <div class="accordion-item">
+                    <h3 id="toyon-header" class="accordion-header">
+                        <button class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#toyon-collapse"
+                                aria-expanded="false"
+                                aria-controls="toyon-collapse">
+                            Toyon Research Corporation
+                        </button>
+                    </h3>
+                    <div id="toyon-collapse"
+                         class="accordion-collapse collapse"
+                         aria-labelledby="toyon-header"
+                         data-bs-parent="#work">
+                        <div class="accordion-body">
+                            <b>Algorithm Developer</b>
+                            <ul>
+                                <li>Analyze existing computer vision code for bottlenecks using nvprof, Nvidia NSight, and VS Performance Profiler</li> 
+                                <li>Implement parallelized algorithms in CUDA to run on the GPU</li>
+                                <li>Package software for delivery to client using Docker and CPack</li>
+                                <li>Maintain and update CI scripts and configuration files</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h3 id="vr-header" class="accordion-header">
+                        <button class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#vr-collapse"
+                                aria-expanded="false"
+                                aria-controls="vr-collapse">
+                            Rowan Virtual Reality Center
+                        </button>
+                    </h3>
+                    <div id="vr-collapse"
+                         class="accordion-collapse collapse"
+                         aria-labelledby="vr-header"
+                         data-bs-parent="#work">
+                        <div class="accordion-body">
+                            <b>XR Software Developer</b>
+                            <ul>
+                                <li>Wrote code to consume REST API in C#</li>
+                                <li>Handled compatibility issues for multiple devices during development</li>
+                                <li>Wrote code for custom world-space GUI element interaction for Oculus Go</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h3 id="opex-header" class="accordion-header">
+                        <button class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#opex-collapse"
+                                aria-expanded="false"
+                                aria-controls="opex-collapse">
+                            OPEX Corporation
+                        </button>
+                    </h3>
+                    <div id="opex-collapse"
+                         class="accordion-collapse collapse"
+                         aria-labelledby="opex-header"
+                         data-bs-parent="#work">
+                        <div class="accordion-body">
+                            <b>Software Engineering Intern</b>
+                            <ul>
+                                <li>Added graphics features to dialogs and worked to fix graphic bugs using MFC libraries in C++</li>
+                                <li>Worked on build scripts to be used with Jenkins and made changes to better integrate Plastic SCM into Jenkins</li>
+                                <li>2D graphic rendering optimization; Increased performance by 80% using Visual Studio Performance Profiler</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container mt-3">
             <div class="row">
-                <h1 class="col">Lonnie L. Souder II</h1>
+                <a href="https://github.com/Llcoolsouder" class="col text-center">
+                    <img src="images/github-logo.svg" width=32 height=32>
+                </a>
+                <a href="https://www.linkedin.com/in/lonnie-souder-ii/" class="col text-center">
+                    <img src="images/linkedin-logo.svg" width=32 height=32>
+                </a>
             </div>
-            <div class="row">
-                <div class="col">
-                    Electrical & Computer Engineer with a flare for graphics, 
-                    low-level code, and making things fast.
-                </div>
-            </div>
-        </section>
-        <section class="container" id="skills">
-            <h2>Skills</h2>
-            <div id="cy" class="container"></div>
-        </section>
-        <section class="accordion container" id="work">
-            <h2>Work</h2>
-            <div class="accordion-item">
-                <h3 id="toyon-header" class="accordion-header">
-                    <button class="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#toyon-collapse"
-                            aria-expanded="false"
-                            aria-controls="toyon-collapse">
-                        Toyon Research Corporation
-                    </button>
-                </h3>
-                <div id="toyon-collapse"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="toyon-header"
-                     data-bs-parent="#work">
-                    <div class="accordion-body">
-                        <b>Algorithm Developer</b>
-                        <ul>
-                            <li>Analyze existing computer vision code for bottlenecks using nvprof, Nvidia NSight, and VS Performance Profiler</li> 
-                            <li>Implement parallelized algorithms in CUDA to run on the GPU</li>
-                            <li>Package software for delivery to client using Docker and CPack</li>
-                            <li>Maintain and update CI scripts and configuration files</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h3 id="vr-header" class="accordion-header">
-                    <button class="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#vr-collapse"
-                            aria-expanded="false"
-                            aria-controls="vr-collapse">
-                        Rowan Virtual Reality Center
-                    </button>
-                </h3>
-                <div id="vr-collapse"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="vr-header"
-                     data-bs-parent="#work">
-                    <div class="accordion-body">
-                        <b>XR Software Developer</b>
-                        <ul>
-                            <li>Wrote code to consume REST API in C#</li>
-                            <li>Handled compatibility issues for multiple devices during development</li>
-                            <li>Wrote code for custom world-space GUI element interaction for Oculus Go</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h3 id="opex-header" class="accordion-header">
-                    <button class="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#opex-collapse"
-                            aria-expanded="false"
-                            aria-controls="opex-collapse">
-                        OPEX Corporation
-                    </button>
-                </h3>
-                <div id="opex-collapse"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="opex-header"
-                     data-bs-parent="#work">
-                    <div class="accordion-body">
-                        <b>Software Engineering Intern</b>
-                        <ul>
-                            <li>Added graphics features to dialogs and worked to fix graphic bugs using MFC libraries in C++</li>
-                            <li>Worked on build scripts to be used with Jenkins and made changes to better integrate Plastic SCM into Jenkins</li>
-                            <li>2D graphic rendering optimization; Increased performance by 80% using Visual Studio Performance Profiler</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-        
-        
-
-        <footer></footer>
+        </footer>
         <!--
             Includes ALL Bootstrap plugins.
             TODO: Include only the plugins used
