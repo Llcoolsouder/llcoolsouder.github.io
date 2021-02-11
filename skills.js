@@ -30,7 +30,11 @@ fetch("skills-data.json")
                 selector: 'node',
                 style: {
                     'background-color': '#666',
-                    'label': 'data(id)'
+                    'label': 'data(id)',
+                    'text-halign': 'center',
+                    'text-valign': 'center',
+                    'text-wrap': 'wrap',
+                    'text-max-width': 15
                 }
             },
             {
@@ -44,11 +48,13 @@ fetch("skills-data.json")
                 }
             }
         ],
-        layout: {
-            name: 'fcose',
-            // nodeSeparation: 75,
-            // nodeRepulsion: 5000,
-            // idealEdgeLength: 150,
+        layout: { name: 'fcose' },
+        ready: function() {
+            this.nodes().forEach(node => {
+                let size = node.connectedEdges().length;
+                node.css("height", size * 7 + 20);
+                node.css("width", size * 7 + 20);
+            });
         }
     });
 });
