@@ -9,7 +9,9 @@
             "Python",
             "Javascript",
             "MATLAB",
-            "Verilog"
+            "Verilog",
+            "Rust",
+            "CUDA"
         ]
     },
     {
