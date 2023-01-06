@@ -27,6 +27,31 @@
                 <h2>Work</h2>
 
                 <div class="accordion-item">
+                    <h3 id="meta-header" class="accordion-header">
+                        <button class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#meta-collapse"
+                                aria-expanded="false"
+                                aria-controls="meta-collapse">
+                            Meta
+                        </button>
+                    </h3>
+                    <div id="meta-collapse"
+                         class="accordion-collapse collapse"
+                         aria-labelledby="meta-header"
+                         data-bs-parent="#work">
+                        <div class="accordion-body">
+                            <b>GPU Software Engineer IV</b>
+                            <ul>
+                                <li>Investigated platform-agnostic general purpose GPU programming frameworks for use in Meta's AI infrastructure</li>
+                                <li>Wrote benchmarks to evaluate performance of GEMM kernels in OpenMP, Triton, Cutlass, and Torch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
                     <h3 id="verizon-header" class="accordion-header">
                         <button class="accordion-button"
                                 type="button"
@@ -42,7 +67,7 @@
                          aria-labelledby="verizon-header"
                          data-bs-parent="#work">
                         <div class="accordion-body">
-                            <b>GPU Engineer</b>
+                            <b>GPU Software Engineer</b>
                             <ul>
                                 <li>Supported development of the large volumetric capture stage</li>
                                 <li>Standardized file format for multi-camera calibration and provided a reader/writer library</li>
