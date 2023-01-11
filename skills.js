@@ -48,7 +48,7 @@ fetch("skills-data.json")
                 }
             }
         ],
-        layout: { name: 'fcose' },
+        layout: { name: 'cose' },
         ready: function() {
             this.nodes().forEach(node => {
                 let size = node.connectedEdges().length;
