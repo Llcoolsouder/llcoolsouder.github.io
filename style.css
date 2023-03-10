@@ -1,6 +1,32 @@
+:root {
+    --color--primary: #53ed85;
+    --color--secondary: #9ef9fd;
+    --gradient--primary-secondary: linear-gradient(180deg, var(--color--primary) 0%,var(--color--secondary) 100%);
+}
+
 .container {
     padding-left: 0;
     padding-right: 0;
+}
+
+.button-link-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+}
+
+.button-link {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    width: fit-content;
+    border: 3px solid black;
+    border-radius: 0.4rem;
+    background: var(--gradient--primary-secondary);
+    text-decoration: none;
+    color: black;
 }
 
 #about {
