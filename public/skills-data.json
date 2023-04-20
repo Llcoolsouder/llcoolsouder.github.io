@@ -15,6 +15,17 @@
         ]
     },
     {
+        "skill": "C++",
+        "related": [
+            "OpenCV",
+            "OpenGL",
+            "CUDA",
+            "CMake",
+            "vcpkg",
+            "GTEST"
+        ]
+    },
+    {
         "skill": "Web Development",
         "related": [
             "Frontend",
@@ -27,9 +38,14 @@
             "Javascript",
             "HTML",
             "CSS",
-            "ReactJS",
-            "Bootstrap"
+            "React",
+            "Bootstrap",
+            "Vue"
         ]
+    },
+    {
+        "skill": "Vue",
+        "related": ["Nuxt"]
     },
     {
         "skill": "Backend",
@@ -37,9 +53,12 @@
             "Python",
             "NGINX",
             "Docker",
-            "Docker-Compose",
             "Javascript"
         ]
+    },
+    {
+        "skill": "Docker",
+        "related": ["Compose"]
     },
     {
         "skill": "Python",
@@ -51,7 +70,6 @@
     {
         "skill": "Game Development",
         "related": [
-            "C++",
             "Unity3D",
             "VR",
             "OpenGL"
