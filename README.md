@@ -39,4 +39,9 @@ Locally preview production build:
 npm run preview
 ```
 
+Generate static site:
+```bash
+npm run generate
+```
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
