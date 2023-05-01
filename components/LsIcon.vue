@@ -15,7 +15,14 @@ export default {
 </template>
 
 <style scoped lang="scss">
-img {
-    // height: 100%;
+
+a {
+    width: 100;
+    height: 100%;
 }
+
+img {
+    height: 100%;
+}
+
 </style>

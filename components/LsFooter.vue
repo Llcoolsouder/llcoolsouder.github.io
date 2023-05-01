@@ -5,7 +5,7 @@ export default {
     },
     computed: {
         maxIconWidth() {
-            return 100 / this.icons.length + 'vw';
+            return 100 / this.icons.length + '%';
         }
     }
 }
@@ -15,7 +15,7 @@ export default {
 <hr class="line-break">
 <div class="container">
     <template v-for="icon in icons">
-        <ls-icon v-bind="icon"></ls-icon>
+        <ls-icon v-bind="icon" class="footer-item"></ls-icon>
     </template>
 </div>
 </template>
@@ -35,14 +35,12 @@ export default {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    height: 2vh; 
+    height: 4vh; 
     width: 100%;
-    gap: 1rem;
 }
 
-.container ::v-deep(img) {
+.footer-item {
     max-width: v-bind('maxIconWidth');
-    height: 100%;
 }
 
 </style>
