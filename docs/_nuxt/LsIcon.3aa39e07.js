@@ -1,0 +1,1 @@
+import{a as t,o as _,b as c,e as n}from"./entry.0435868a.js";const o={props:{imgSrc:String,altText:String,href:String}},s=["href"],a=["src","alt"];function r(f,i,e,l,d,m){return _(),c("a",{href:e.href},[n("img",{src:e.imgSrc,alt:e.altText},null,8,a)],8,s)}const u=t(o,[["render",r],["__scopeId","data-v-b1c9f4fb"]]);export{u as default};
