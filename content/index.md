@@ -21,6 +21,15 @@ Skills
 Work
 ::
 
+::ls-job 
+#employer
+Ozone Story Tech
+#title
+Software Engineer
+#description
+- Maintaining the Ozone for Unreal Engine plugin
+::
+
 
 ::ls-job 
 #employer
